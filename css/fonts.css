@@ -1,0 +1,16 @@
+﻿
+@font-face {
+  font-family: 'tit';
+  font-style: normal;
+    src: url("font/TitilliumWeb-Regular.ttf"),
+         url("font/TitilliumWeb-Regular.eot"),
+         url("font/TitilliumWeb-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'kaff';
+  font-style: normal;
+    src: url("font/kaffmedium.ttf"),
+         url("font/kaffmedium.eot"),
+         url("font/kaffmedium.otf");
+}

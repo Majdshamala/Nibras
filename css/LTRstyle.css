@@ -1,0 +1,444 @@
+﻿
+html, html a {
+    text-decoration: none;
+    text-rendering: geometricprecision;
+}
+
+    html a:hover {
+        text-decoration: none;
+    }
+
+body {
+    background: #ffffff none repeat scroll 0 0;
+    color: #1d1851;
+    font-family: kaff;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #333333;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none !important;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.logo {
+    padding-top: 43px;
+    float: right;
+    text-align: right;
+}
+
+    .logo a {
+        background: url(../images/img1.png) left center;
+        color: #1d1851;
+        background-size: 65px;
+        background-repeat: no-repeat;
+        padding: 29px;
+        padding-left: 65px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+.nibras .navbar-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin-bottom: 0;
+}
+
+.nibras .navbar-brand {
+    display: none;
+}
+
+.nibras .navbar-default .navbar-nav > li > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    color: #1d1851;
+    font-size: 16px;
+    line-height: 23px;
+    transition: color 0.25s ease 0s;
+    padding: 9px 23px;
+    margin: 0;
+    border-radius: 14px;
+    transition: all .2s;
+    font-weight: 600;
+}
+
+    .nibras .navbar-default .navbar-nav > .active > a, .nibras .navbar-default .navbar-nav > .active > a:focus, .nibras .navbar-default .navbar-nav > .active > a:hover, .nibras .navbar-default .navbar-nav > li > a:hover {
+        background-color: #F5D609 !important;
+    }
+
+.menu {
+    padding-right: 0;
+    padding-top: 39px;
+}
+
+    .menu nav {
+    }
+
+.about {
+    margin-top: 60px;
+}
+
+    .about p {
+    }
+
+        .about p svg {
+        }
+
+.header-text-nibras {
+    padding: 37px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.headerinfo {
+    margin-top: 60px;
+    text-align: right;
+    float: right;
+}
+
+    .headerinfo p {
+        font-size: 37px;
+    }
+
+    .headerinfo span {
+        font-size: 12px;
+        display: block;
+    }
+
+    .headerinfo button {
+        background: #F5D609;
+        border: none;
+        padding: 9px 15px;
+        border-radius: 12px;
+        margin-top: 17px;
+        font-size: 20px;
+        transition:all .25s;
+        font-weight: 600;
+    }
+
+.featured {
+    background: #F2F2F2 url(../images/img2.png) bottom center;
+    padding-bottom: 169px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+    .featured > div > h2 {
+        color: #1d1851;
+        text-align: center;
+        margin: 67px;
+        font-weight: 600;
+    }
+
+.somefeatured {
+}
+
+    .somefeatured p {
+    }
+
+    .somefeatured img {
+        width: 150px;
+        margin: auto;
+        display: inline-block;
+        max-height: 135px;
+    }
+
+    .somefeatured h3 {
+        font-size: 20px;
+        margin-top: 34px;
+        font-weight: 600;
+    }
+
+    .somefeatured span {
+        font-size: 11px;
+        line-height: 6px !important;
+    }
+
+    .somefeatured > div {
+        background: #fff;
+        text-align: center;
+        padding: 30px 18px;
+        height: 337px;
+        box-shadow: -6px 7px 7px rgba(15,100,140,0.15);
+    }
+
+.product {
+    background: url(../images/img10.png) right top 154px;
+    background-repeat: no-repeat;
+    background-size: 264px;
+    padding-bottom: 234px;
+}
+
+    .product > div > h2 {
+        color: #1d1851;
+        text-align: center;
+        margin: 68px;
+        font-weight: 600;
+    }
+
+.productdetails {
+    float: left;
+}
+
+    .productdetails p {
+        color: #4C4C4C;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .productdetails span {
+        font-size: 11px;
+        line-height: 23px !important;
+        display: block;
+    }
+
+    .productdetails button {
+        background: #F5D609;
+        border: none;
+        padding: 9px 15px;
+        border-radius: 12px;
+        margin-top: 17px;
+        font-size: 17px;
+        transition:all .2s;
+        font-weight: 600;
+    }
+
+    .productdetails > div {
+        margin-top: 49px;
+    }
+
+
+.clinet > div > h2 {
+    color: #1d1851;
+    text-align: center;
+    margin: 68px;
+    font-weight: 600;
+}
+
+.clinet {
+    background: #F2F2F2 url(../images/img2.png) bottom center;
+    padding-bottom: 169px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+    .clinet .slide {
+        width: 781px;
+        margin: auto;
+    }
+
+    .clinet .carousel-inner {
+    }
+
+    .clinet .item {
+    }
+
+        .clinet .item.active {
+        }
+
+.clinetinfo {
+}
+
+    .clinetinfo div {
+        background: #fff;
+        height: 197px;
+        box-shadow: -6px 7px 7px rgba(15,100,140,0.15);
+        margin: 18px;
+    }
+
+.clinet .carousel-indicators {
+    bottom: -100px;
+    padding: 0;
+}
+
+    .clinet .carousel-indicators li {
+        background: #f5d609;
+        border: none;
+        margin: 0 14px;
+    }
+
+        .clinet .carousel-indicators li.active {
+            background: #1d1851;
+        }
+
+.contactus {
+    background: url(../images/img9.jpg) bottom center;
+    background-size: 100% auto;
+    height: 629px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+    .contactus > div > h2 {
+        color: #1d1851;
+        text-align: center;
+        margin: 68px;
+        font-weight: 600;
+    }
+
+.contact {
+}
+
+.conactform {
+}
+
+    .conactform > p {
+        margin-top: 33px;
+    }
+
+        .conactform > p i {
+            color: #393939;
+            float: left;
+            font-size: 22px;
+            margin-top: 2px;
+        }
+
+        .conactform > p span {
+            border-bottom: 1px solid #c2c2c2;
+            color: #393939;
+            font-size: 17px;
+            margin-left: 11px;
+            padding-bottom: 5px;
+        }
+
+    .conactform input, .conactform textarea {
+        background: #f0f0f0 none repeat scroll 0 0;
+        border: medium none;
+        border-radius: 25px;
+        box-shadow: none !important;
+        color: #707070 !important;
+        font-size: 13px;
+        height: 44px;
+    }
+
+    .conactform textarea {
+        height: 201px !important;
+        max-width: 100%;
+        padding: 14px 16px;
+    }
+
+    .conactform button {
+        border: medium none;
+        border-radius: 7px;
+        color: #ffffff;
+        float: right;
+        font-size: 15px;
+        margin-right: 11px;
+        padding: 6px 41px 10px 46px;
+        transition: all 0.2s ease-in 0s;
+        background: #1d1851;
+        line-height: 23px;
+        line-height: 23px;
+        padding-top: 8px;
+        font-weight: 600;
+    }
+
+    .conactform > .row {
+        padding-left: 32px;
+        padding-top: 42px;
+    }
+
+    .conactform input {
+        margin-bottom: 20px;
+    }
+
+    .conactform > h5 {
+        position: absolute;
+        bottom: 7px;
+        left: 43px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+.productimg {
+
+    float: right;
+}
+
+.productimg img{
+
+    float: right;
+    margin-top: 44px;
+}
+
+.secondfooter {
+  
+
+    text-align: Center;
+    background: #201B50;
+    margin: 0;
+    color: #fff;
+    padding: 16px;
+}
+
+.headerinfo button:hover ,.productdetails button:hover{
+    background: #FFE038;
+    box-shadow: -3px 4px 8px rgba(0,0,0,.1);
+}
+
+.about img{
+    width:100%;
+}
+.header {
+padding-bottom:50px;
+}
+
+/*** new 25/08/2019 *****/
+
+/*** new 25/08/2019 *****/
+
+#map {
+    height: 427px;
+    width: 96%;
+}
+
+.contact-details > p {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.contact-details > div {
+    clear: both;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+    .contact-details > div i {
+        float: left;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+    .contact-details > div p {
+        color: #4f4e4e;
+        float: left;
+        font-size: 13px;
+        line-height: 23px;
+        margin-left: 9px;
+    }
+
+.contact-details .title-liqaa {
+    margin-bottom: 14px !important;
+}
+
+.mapouter {
+    position: relative;
+    text-align: left;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 360px;
+    width: 90%;
+}
